@@ -1,0 +1,46 @@
+.job-details-container {
+  max-width: 1800px;
+  margin: auto;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+}
+
+.job-header h1 {
+  margin-bottom: 5px;
+}
+.company-image{
+    size:300px;
+    width:180px;
+}
+.company {
+  color: gray;
+  margin-bottom: 10px;
+  font-style: italic;
+  font-size: 40px;
+  display:flex;
+  gap:30px;
+}
+
+.tag {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 5px 12px;
+  border-radius: 20px;
+  background: #e7f3ff;
+  color: #0073e6;
+  font-size: 14px;
+}
+
+section {
+  margin-top: 25px;
+}
+
+.apply-btn {
+  margin-top: 30px;
+  padding: 12px 30px;
+    background: linear-gradient(45deg, #00eaff, #0078ff);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

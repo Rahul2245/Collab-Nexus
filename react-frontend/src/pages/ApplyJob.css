@@ -1,0 +1,57 @@
+.apply-wrapper {
+  max-width: 800px;
+  margin: auto;
+  padding: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.apply-header {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-bottom: 30px;
+}
+
+.company-logo {
+  width: 170px;
+  height: auto;
+}
+
+.apply-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.apply-form h3 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.apply-form label {
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.apply-form input,
+.apply-form select {
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.checkbox {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.submit-btn {
+  margin-top: 30px;
+  padding: 12px;
+     background: linear-gradient(45deg, #00eaff, #0078ff);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}

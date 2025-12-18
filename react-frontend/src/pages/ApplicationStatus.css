@@ -1,0 +1,85 @@
+.status-wrapper {
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  gap:145px;
+}
+.company-image-status{
+    margin-bottom: 300px;
+    width: 320px;
+
+}
+
+.status-header {
+  margin-bottom: 30px;
+}
+
+.badge {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.in-progress {
+  
+     background: linear-gradient(45deg, #00eaff, #0078ff);
+}
+
+.timeline {
+  border-left: 2px solid #ddd;
+  padding-left: 25px;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.timeline-item .dot {
+  width: 12px;
+  height: 12px;
+  background: #ddd;
+  border-radius: 50%;
+  position: absolute;
+  left: -31px;
+  top: 5px;
+}
+
+.completed .dot {
+  background: #28a745;
+}
+
+.active .dot {
+  background: linear-gradient(45deg, #00eaff, #0078ff);
+}
+
+.upcoming .dot {
+  background: #bbb;
+}
+
+.oa-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+     background: linear-gradient(45deg, #00eaff, #0078ff);
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.interview-box {
+  margin-top: 40px;
+  padding: 20px;
+  border: 1px solid #ddd;
+ 
+  border-left:rgb(29, 124, 225);
+    border-left-width: 6px;
+  border-left-style: solid;
+  padding-left: 14px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  background: #ffffff;
+}
